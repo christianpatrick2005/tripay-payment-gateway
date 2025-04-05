@@ -2,7 +2,7 @@
   "name": "muhammadnan/tripay-payment-gateway",
   "description": "PHP Payment Gateway Tripay Library",
   "homepage": "https://payment.tripay.co.id",
-  "license":"GPL-3.0",
+  "license": "GPL-3.0",
   "authors": [
     {
       "name": "Muhammad Adnan",
@@ -20,7 +20,7 @@
   },
   "require": {
     "guzzlehttp/guzzle": "^7.0",
-    "symfony/http-foundation": "^6.0",
+    "symfony/http-foundation": "^5.2 || ^6.0 || ^7.0",
     "vlucas/phpdotenv": "^5.3"
   },
   "require-dev": {
@@ -31,5 +31,11 @@
     "allow-plugins": {
       "pestphp/pest-plugin": true
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/christianpatrick2005/tripay-payment-gateway"
+    }
+  ]
 }
